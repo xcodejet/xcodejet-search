@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nothing....css">
+    <link href="http://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+    <style>
+      @import url('http://fonts.cdnfonts.com/css/ds-digital');
+    </style>
+    <title>xcodejet engine</title>
+</head>
+<body style="background-image: url('https://i.ibb.co/7pKxDZ0/20220921-201834.jpg'); background-size:auto;">
+
+    <section>
+        <div class="container" onclick="aud()">
+          <div class="background-img">
+            <div class="box">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <div class="content">
+                <h1 class="f-size"><b>X CODE JET</b></h1>
+                <p style="font-size: 14px; font-family:cursive;">Search Engine Interface</p>
+                </div> 
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+      <div class="background_imgs">
+        <div align="center"><div class="engine">
+            <button class="scic" style="padding: 3px 10px; justify-content: center;"><i class="fa fa-search" style="font-size:18px; color: red;"></i></button>
+            <input id="searchbar" class="bar" onfocus="afocus()" onclick="aud()" onkeypress="enterKeyPressed(event)" style="width:75%;" rows="1" autocorrect="off" maxlength="50" placeholder="Search or type a URL">
+            <button class="scic" style="padding: 3px 10px; justify-content: center;"><i class="fa fa-heart" style="font-size:18px; color: red;"></i></button>
+
+        </div></div>
+        <br>
+        <h2 id="times" align="center" onclick="timecolor()" style="color:rgb(255, 228, 228); font-family: 'DS-Digital', sans-serif; text-shadow: 00 2px 11px rgb(0, 0, 0);"><b>Shortcuts</b></h2>
+        <div align="center">
+            <a href="https://www.google.com" target="_blank">
+            <button class="gradient google" onclick="aud()">Google</button></a>
+            <a href="https://translate.google.com" target="_blank">
+              <button class="gradient translate" onclick="aud()">Translate</button></a>
+            <a href="https://www.youtube.com" target="_blank">
+            <button class="gradient youtube" onclick="aud()">Youtube</button></a>
+            <a href="https://www.y2mate.com" target="_blank">
+            <button class="gradient y2mate" onclick="aud()">y2mate</button></a>
+            <a href="https://apexonline.lk" target="_blank">
+              <button class="gradient apex" onclick="aud()">apex</button></a>
+            <a href="https://news.google.com/search?pz=1&cf=all&hl=en-IN&q=Sri+Lanka&gl=IN&ceid=IN:en" target="_blank">
+            <button class="gradient news" onclick="aud()">XCODEJET</button></a>
+            
+
+            <div id="adultdiv" style="display: block;">
+            <a>
+            <button class="gradient adult">
+              <input type="checkbox" id="contact" onclick="con()">
+              <label for="adultmode" style="color: red;"> contact</label><br></button></a></div>
+
+            <div id="contacts" style="display: none;">
+            <a href="https://wa.me/94776115376" target="_blank">
+            <button class="gradient wa" onclick="aud()">WhatsApp</button>
+            <a href="https://t.me/kumuthu" target="_blank">
+            <button class="gradient te" onclick="aud()">telegram</button></a></div>
+
+            <div id="adults" style="display: block; float:left;">
+              <a>
+              <button>
+                <input type="checkbox" id="adult" onclick="aduult()">
+                <label for="adultmode"> Child mode</label><br></button></a></div>
+
+      </div></div>
+      </section>
+
+      <a hidden>
+        <audio id="clicks" controls>
+          <source src="click.wav" type="audio/mpeg">
+        </audio>
+      </a>
+<script src="kumuthu.js"></script>
+</body>
+</html>
